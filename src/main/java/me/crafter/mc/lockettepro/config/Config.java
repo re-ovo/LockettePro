@@ -1,4 +1,4 @@
-package me.crafter.mc.lockettepro;
+package me.crafter.mc.lockettepro.config;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

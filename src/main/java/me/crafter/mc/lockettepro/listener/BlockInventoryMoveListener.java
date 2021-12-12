@@ -1,5 +1,8 @@
-package me.crafter.mc.lockettepro;
+package me.crafter.mc.lockettepro.listener;
 
+import me.crafter.mc.lockettepro.api.LocketteProAPI;
+import me.crafter.mc.lockettepro.config.Config;
+import me.crafter.mc.lockettepro.utils.Utils;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.DoubleChest;

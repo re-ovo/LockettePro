@@ -1,6 +1,7 @@
-package me.crafter.mc.lockettepro;
+package me.crafter.mc.lockettepro.hook;
 
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
+import me.crafter.mc.lockettepro.config.Config;
 import net.coreprotect.CoreProtect;
 import net.coreprotect.CoreProtectAPI;
 import net.milkbowl.vault.permission.Permission;
@@ -13,8 +14,8 @@ import org.bukkit.scoreboard.Team;
 
 public class Dependency {
     
-    protected static WorldGuardPlugin worldguard = null;
-    protected static Plugin vault = null;
+    public static WorldGuardPlugin worldguard = null;
+    public static Plugin vault = null;
     protected static Permission permission = null;
     private static CoreProtectAPI coreProtectAPI;
 

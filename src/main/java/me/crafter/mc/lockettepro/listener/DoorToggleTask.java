@@ -1,12 +1,14 @@
-package me.crafter.mc.lockettepro;
+package me.crafter.mc.lockettepro.listener;
 
+import me.crafter.mc.lockettepro.LockettePro;
+import me.crafter.mc.lockettepro.api.LocketteProAPI;
 import org.bukkit.block.Block;
 
 import java.util.List;
 
 public class DoorToggleTask implements Runnable{
 
-    private List<Block> doors;
+    private final List<Block> doors;
     
     public DoorToggleTask(List<Block> doors_){
         doors = doors_;

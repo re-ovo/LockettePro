@@ -1,5 +1,14 @@
 package me.crafter.mc.lockettepro;
 
+import me.crafter.mc.lockettepro.api.LocketteProAPI;
+import me.crafter.mc.lockettepro.config.Config;
+import me.crafter.mc.lockettepro.hook.Dependency;
+import me.crafter.mc.lockettepro.hook.DependencyProtocolLib;
+import me.crafter.mc.lockettepro.listener.BlockDebugListener;
+import me.crafter.mc.lockettepro.listener.BlockEnvironmentListener;
+import me.crafter.mc.lockettepro.listener.BlockInventoryMoveListener;
+import me.crafter.mc.lockettepro.listener.BlockPlayerListener;
+import me.crafter.mc.lockettepro.utils.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

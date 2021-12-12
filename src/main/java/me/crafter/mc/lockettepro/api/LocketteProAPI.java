@@ -1,5 +1,8 @@
-package me.crafter.mc.lockettepro;
+package me.crafter.mc.lockettepro.api;
 
+import me.crafter.mc.lockettepro.config.Config;
+import me.crafter.mc.lockettepro.hook.Dependency;
+import me.crafter.mc.lockettepro.utils.Utils;
 import org.bukkit.Effect;
 import org.bukkit.Material;
 import org.bukkit.Tag;

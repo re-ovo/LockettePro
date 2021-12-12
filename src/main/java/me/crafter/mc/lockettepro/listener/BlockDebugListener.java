@@ -1,5 +1,7 @@
-package me.crafter.mc.lockettepro;
+package me.crafter.mc.lockettepro.listener;
 
+import me.crafter.mc.lockettepro.api.LocketteProAPI;
+import me.crafter.mc.lockettepro.utils.Utils;
 import org.bukkit.ChatColor;
 import org.bukkit.Tag;
 import org.bukkit.block.Block;
