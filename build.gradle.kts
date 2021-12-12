@@ -14,6 +14,9 @@ tasks {
         sourceCompatibility = javaVersion
         targetCompatibility = javaVersion
     }
+    withType<JavaCompile>(){
+        options.encoding = "UTF-8"
+    }
     processResources {
         duplicatesStrategy = DuplicatesStrategy.INCLUDE
         from("src/main/resources") {
